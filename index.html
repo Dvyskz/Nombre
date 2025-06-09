@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre Misterioso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="pregunta" id="pregunta">
+            <label for="nombre">Ingresa tu nombre</label>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre">
+            <button onclick="mostrarCarga()">Enviar</button>
+        </div>
+        <div class="cargando" id="cargando">
+            <p>Cargando...</p>
+            <div class="spinner"></div>
+        </div>
+        <div class="resultado" id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
